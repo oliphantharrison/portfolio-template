@@ -49,33 +49,33 @@ Those are the main values you should edit.
 - `links.website`
   The website link used when hovering or tapping `.com`
 
-## Example: Change It To Harrison
+## Example: Change It To John
 If you want the hero to be:
 
-`harrison@harrisonoliphant.com`
+`john@johnappleseed.com`
 
 and your information is:
 
-- name: `harrison`
-- domain: `harrisonoliphant.com`
-- email: `harrison@harrisonoliphant.com`
-- instagram: `https://www.instagram.com/oftenharrison`
-- linkedin: `https://www.linkedin.com/in/harrisonoliphant`
+- name: `john`
+- domain: `john@johnappleseed.com`
+- email: `@johnappleseed.com`
+- instagram: `https://www.instagram.com/johnappleseed`
+- linkedin: `https://www.linkedin.com/in/johnappleseed`
 
 change the content block to:
 
 ```ts
 const SITE_CONTENT = {
   hero: {
-    name: "harrison",
-    domain: "harrisonoliphant",
+    name: "john",
+    domain: "johnappleseed",
     tld: ".com",
   },
   summary: "INSERT A BRIEF 8 WORD SUMMARY ABOUT YOURSELF",
   links: {
-    email: "mailto:harrison@harrisonoliphant.com",
-    instagram: "https://www.instagram.com/oftenharrison",
-    linkedin: "https://www.linkedin.com/in/harrisonoliphant",
+    email: "mailto:john@johnappleseed.com",
+    instagram: "https://www.instagram.com/johnappleseed",
+    linkedin: "https://www.linkedin.com/in/johnappleseed",
     website: "/",
   },
 };
