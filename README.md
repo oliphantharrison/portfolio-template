@@ -1,4 +1,4 @@
-# Business Card Landing Page Template
+# Portfolio Landing Page Template
 
 This template is designed so most people only need to edit one file:
 - [src/App.tsx]
